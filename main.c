@@ -4,12 +4,12 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int i,sum=0;
-	for(i=0;i<10;i++)
+	int IPone,SUM=0;
+	for(IPone=0;IPone<10;IPone++)
 	{
-		sum=sum+i;
+		SUM=SUM+IPone;
 	}
-	printf("sum=%d",sum);
+	printf("sum=%d",SUM);
 	
 	return 0;
 }
